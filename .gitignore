@@ -1,0 +1,110 @@
+# IDE and editor specific files
+*.idea/*
+.vscode/
+.project
+.pycharm/
+
+# OS specific temporary files
+Thumbs.db
+.DS_Store
+
+# Build output
+build/
+dist/
+eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+
+# Virtual environment files
+.env
+.venv/
+env/
+
+# credential files
+credentials/*
+!credentials/.gitkeep
+
+# Test coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# Translations
+*.mo
+*.pot
+
+# IDE specific python files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+# For a library or package, consider excluding this for multiple environments
+# .python-version
+
+# Dependency lock files (consider including for reproducibility)
+# Pipenv
+#Pipfile.lock
+
+# Poetry
+#poetry.lock
+
+# pdm
+#pdm.lock
+
+# IDE specific python notebook checkpoints
+.ipynb_checkpoints
+
+# Lines starting with '#' are comments
