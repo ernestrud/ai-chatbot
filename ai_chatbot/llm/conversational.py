@@ -59,6 +59,6 @@ class OpenAIConversationalLLM:
         else:
             content = response.choices[0].message.content
             self.conversation_history.extend([{"role": "user", "content": user_input},
-                                              {"role": "assistant", "content": response}])
+                                              {"role": "assistant", "content": content}])
             self.limit_conversation_history()
             return content
